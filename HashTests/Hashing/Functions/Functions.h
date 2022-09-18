@@ -1,0 +1,8 @@
+#include "Adler32.h"
+#include "CSharpTuple.h"
+#include "Fletcher16.h"
+#include "FNV.h"
+#include "Knuth.h"
+#include "OneAtATimeHash.h"
+#include "OnesComplement.h"
+#include "Summation.h"
