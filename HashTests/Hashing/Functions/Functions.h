@@ -6,3 +6,4 @@
 #include "OneAtATimeHash.h"
 #include "OnesComplement.h"
 #include "Summation.h"
+#include "ZeroHash.h"

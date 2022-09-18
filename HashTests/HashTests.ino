@@ -33,9 +33,11 @@ void loop()
 	//using Hash = OneAtATimeHash;
 	//using Hash = PartialOneAtATimeHash;
 
-	//EEPROM::putWithHash<Hash>(0, object);
+	//using Hash = ZeroHash;
 
-	arduboy.println(static_cast<int>(Hash::hash(object)));
+	//arduboy.println(static_cast<int>(Hash::hash(object)));
+
+	//EEPROM::putWithHash<Hash>(0, object);
 
 	arduboy.display(true);
 }
